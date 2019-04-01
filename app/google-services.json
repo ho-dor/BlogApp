@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "117026218406",
+    "firebase_url": "https://socialapp-39580.firebaseio.com",
+    "project_id": "socialapp-39580",
+    "storage_bucket": "socialapp-39580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117026218406:android:fefb0ca5dee2ab15",
+        "android_client_info": {
+          "package_name": "com.example.kunal.socialapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117026218406-8eg8ct5a9kir6v7b7unm0fl9gatcnci5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kunal.socialapp",
+            "certificate_hash": "ebeba47c689c091e7a8be66d6c159d7e1f949d2f"
+          }
+        },
+        {
+          "client_id": "117026218406-uvcajb6os57hjnhks3ehblqf6okrcule.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kunal.socialapp",
+            "certificate_hash": "157a5e9488106fe3a40e39a4b935b447d65ee906"
+          }
+        },
+        {
+          "client_id": "117026218406-csnqvkj1mk5u83odefp7d7emeo6c9fds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYgQyg-DyQfprb4IycZJprnjXVDH9Xvxg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117026218406-csnqvkj1mk5u83odefp7d7emeo6c9fds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

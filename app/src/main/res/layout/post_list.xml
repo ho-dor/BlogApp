@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp">
+
+    <RelativeLayout
+        android:id="@+id/postRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postedImage"
+            android:layout_margin="20dp"/>
+
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postedTitle"
+            android:layout_below="@+id/postedImage"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/postedDesc"
+            android:layout_below="@+id/postedTitle"/>
+
+        <ImageView
+            android:contentDescription="Like Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/like"
+            android:src="@drawable/ic_thumb_up"
+            android:layout_below="@+id/postedDesc"/>
+
+        <ImageView
+            android:contentDescription="Comment Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comment"
+            android:src="@drawable/comment"
+            android:layout_below="@+id/postedDesc"
+            android:layout_toRightOf="@+id/like"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/share"
+            android:src="@drawable/share"
+            android:layout_toRightOf="@+id/comment"
+            android:layout_below="@+id/postedDesc"
+            android:layout_marginLeft="10dp"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
